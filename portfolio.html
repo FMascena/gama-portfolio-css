@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/dd336c0f03.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet">
+    <title>Felipe Mascena</title>
+</head>
+<body>
+
+    <header>
+
+        <div>
+            <img height="100" width="100" src="Logotipo circular monograma elegante feminino amarelo e preto .png" alt="Logotipo">
+        </div>
+
+        <ul>
+            <li>
+                <a target="_blank" href="https://github.com/FMascena">Github</a> 
+            </li>
+            <li>
+                <a target="_blank" href="https://www.linkedin.com/in/felipe-mascena-dev/">Linkedin</a>
+            </li>
+            <li>
+                <a target="_blank" href="https://api.whatsapp.com/send/?phone=5531985344371&text&type=phone_number&app_absent=0">Whatsapp</a>
+            </li>
+        </ul>
+        
+    </header>
+
+    <main>
+        <section class="container">
+
+            <div>
+                <h1>Felipe Mascena</h1>
+                <h5>FullStack Developer</h5>
+            </div>
+
+        </section>
+
+        <div onclick="displayAbout()" id="arrow">
+            <i id="animation" class="fas fa-sort-down"></i>
+        </div>
+
+        <div style="display: none;" id="about">
+            <p>
+                Desenvolvedor Full Stack. Matriculado na Gama Academy. Tenho desenvolvido projetos 
+                com HTML5 e CSS. Vejo no ramo da tecnologia um potencial imenso de crescimento, estudo
+                e me desenvolvo para dominar da melhor forma todas as habilidades e tecnologias 
+                requisitadas pelo mercado, para fazer parte desse futuro cada vez mais digital.
+            </p>
+        </div>
+
+        <div class="form">
+
+            <div>
+                <p>Deixe seu contato</p>
+            </div>
+
+            <form action="">
+                <input type="text" placeholder="Digite aqui seu melhor email :)">
+                <button>Enviar</button>
+            </form>
+
+        </div>
+
+    </main>
+
+    <script>
+        function displayAbout() {
+            var arrow = document.getElementById('animation');
+            arrow.classList.toggle('rotate');
+            var display = document.getElementById('about');
+            display.classList.toggle('active');
+        }
+    </script>
+    
+</body>
+</html>
