@@ -1,5 +1,5 @@
 # Meu Projeto de CSS da Gama Academy
-# Projeto de criação de um portifólio do módulo de CSS da Gama Academy.
+# Projeto de criação de um portfólio do módulo de CSS da Gama Academy.
 
 ## Stack utilizada
 
