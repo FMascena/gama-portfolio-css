@@ -15,7 +15,7 @@ a {
 }
 
 body {
-    background-image: url(./dark-background-abstract-background-network-3d-background-2560x1440-8324.png);
+    background-image: url(./imagens/dark-background-abstract-background-network-3d-background-2560x1440-8324.png);
     background-repeat: no-repeat;
     background-position: center center fixed;
     background-size: cover;
@@ -147,6 +147,11 @@ main {
 }
 
 @media only screen and (max-width: 480px) {
+
+    body {
+        overflow: hidden;
+    }
+
     .container {
         font-size: 25px;
     }
@@ -161,5 +166,4 @@ main {
     .form {
         width: 100%;
     }
-
 }
