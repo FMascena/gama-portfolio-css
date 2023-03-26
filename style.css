@@ -15,7 +15,7 @@ a {
 }
 
 body {
-    background-image: url(./imagens/dark-background-abstract-background-network-3d-background-2560x1440-8324.png);
+    background-image: url(./src/dark-background-abstract-background-network-3d-background-2560x1440-8324.png);
     background-repeat: no-repeat;
     background-position: center center fixed;
     background-size: cover;
@@ -146,10 +146,25 @@ main {
     color: #000;
 }
 
+@media only screen and (max-width: 360px) {
+
+    header {
+        width: 100%;
+        padding-left: 5%;
+    }
+
+    #logo img {
+        height: 75px;
+        width: 75px;
+    }
+
+}
+
 @media only screen and (max-width: 480px) {
 
     body {
         overflow: hidden;
+        height: 100vh;
     }
 
     .container {
@@ -157,10 +172,11 @@ main {
     }
 
     #about p {
-        font-size: 60%;
+        font-size: 80%;
+        font-weight: 200;
         margin-left: 10%;
         margin-right: 10%;
-        text-align: justify;
+        text-align: left;
     }
 
     .form {
